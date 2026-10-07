@@ -1,0 +1,14 @@
+# 统一按 LF 存储与检出，避免 Windows / macOS / Linux 之间出现行尾噪声
+* text=auto eol=lf
+
+*.R      text eol=lf
+*.py     text eol=lf
+*.md     text eol=lf
+*.json   text eol=lf
+*.csv    text eol=lf
+*.sh     text eol=lf
+
+*.png    binary
+*.pdf    binary
+*.docx   binary
+*.xlsx   binary

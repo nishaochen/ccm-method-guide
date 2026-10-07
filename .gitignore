@@ -1,0 +1,25 @@
+# 分析产物（由 run_all.py 重新生成，不入库）
+examples/synthetic/output/
+examples/synthetic/run_all.log
+examples/synthetic/data_synthetic_raw.csv
+examples/synthetic/data_fuzzy.csv
+examples/synthetic/data_crisp.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
